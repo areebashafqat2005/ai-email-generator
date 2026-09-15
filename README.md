@@ -2,6 +2,10 @@
 
 An AI-powered web application that generates professional emails based on the recipient, email type, purpose, tone, length, and additional information provided by the user.
 
+## Live Demo
+
+[Try the AI Email Generator](https://ai-email-generator1.streamlit.app/)
+
 ## Features
 
 * Generate professional emails using AI
