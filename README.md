@@ -1,8 +1,8 @@
-# ✉️ AI Email Generator
+# AI Email Generator
 
 An AI-powered web application that generates professional emails based on the recipient, email type, purpose, tone, length, and additional information provided by the user.
 
-## 🚀 Features
+## Features
 
 * Generate professional emails using AI
 * Multiple email types
@@ -12,7 +12,7 @@ An AI-powered web application that generates professional emails based on the re
 * Automatically generates a suitable subject line
 * Simple and user-friendly interface
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Streamlit
@@ -20,7 +20,7 @@ An AI-powered web application that generates professional emails based on the re
 * GPT-OSS-20B via Groq
 * Git & GitHub
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 ai-email-generator/
@@ -31,7 +31,7 @@ ai-email-generator/
 └── .gitignore
 ```
 
-## 🔑 API Key Setup
+## API Key Setup
 
 This project uses the Groq API.
 
@@ -49,7 +49,7 @@ GROQ_API_KEY = "your_groq_api_key"
 
 **Never upload `secrets.toml` to GitHub.**
 
-## ▶️ Run Locally
+## Run Locally
 
 Install the required dependencies:
 
@@ -63,7 +63,7 @@ Run the application:
 streamlit run app.py
 ```
 
-## 💡 How It Works
+## How It Works
 
 1. Enter the recipient and purpose of the email.
 2. Select the email type, tone, and length.
@@ -72,11 +72,11 @@ streamlit run app.py
 5. The AI generates a professional email and subject line.
 6. The generated email is displayed in the application.
 
-## 🔒 Security
+## Security
 
 The Groq API key is stored securely using Streamlit secrets and is not included in the source code or GitHub repository.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Email copy button
 * Download generated emails
@@ -85,7 +85,7 @@ The Groq API key is stored securely using Streamlit secrets and is not included 
 * User authentication
 * Support for additional AI models
 
-## 👩‍💻 Author
+## Author
 
 **Areeba Shafqat**
 
